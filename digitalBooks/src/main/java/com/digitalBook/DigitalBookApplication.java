@@ -1,14 +1,13 @@
-package com.digitalBooks.digitalBooks;
+package com.digitalBook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DigitalBooksApplication {
+public class DigitalBookApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DigitalBooksApplication.class, args);
-		System.out.println("Vlab Training");
+		SpringApplication.run(DigitalBookApplication.class, args);
 	}
 
 }
